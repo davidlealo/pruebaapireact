@@ -1,5 +1,8 @@
 .App {
+  display: grid;
+  grid-template-columns: auto auto;
   text-align: center;
+  background-color: antiquewhite;
 }
 
 .App-logo {
@@ -35,4 +38,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+li{
+  list-style-type: none;
+  gap: 3px;
+  text-align: left;
+}
+.personajes{
+  display: flex;
+  color:#282c34;
+  font-size: larger;
+  justify-content:flex-start;
+}
+strong{
+  color:rgb(8, 84, 87);
+}
+
+.imagenRandM{
+  margin-top: 10%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
 }
