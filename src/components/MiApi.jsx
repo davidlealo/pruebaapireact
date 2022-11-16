@@ -10,7 +10,6 @@ function MiApi() {
 
         useEffect(()=>{
             llamarAPI()
-            console.log(state)
         },[])
 
     
@@ -18,7 +17,7 @@ function MiApi() {
 
     return (
         <div>
-            <h1>Hola Mundo</h1>
+            <h1>Personajes de Rick and Morty</h1>
             <ul>
         {state.map(estado => <li key={estado.id}><strong>Nombre: </strong>{estado.name} -- <strong>Estado: </strong>{estado.status} -- <strong>Especie: </strong>{estado.species}</li>)}
       </ul>
